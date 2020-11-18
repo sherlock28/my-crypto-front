@@ -1,0 +1,29 @@
+:root {
+    --brand-basic: #000000;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+}
+
+body {
+    background: var(--brand-basic);
+}
+
+.go-up {
+	/* display: none; */
+	padding: 15px;
+	background: #2a9fd6;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+
+	border-radius: 50px 50px 50px 50px;
+	-moz-border-radius: 162px 162px 162px 162px;
+	-webkit-border-radius: 162px 162px 162px 162px;
+	border: 0px solid #000000;
+}
